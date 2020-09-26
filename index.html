@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets\style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div class="nav-wrapper grey z-depth-2" style="min-height: 125px">
+        <a href="#!" class="brand-logo"
+          >Caitlin Bouroncle,
+          <span class="sub-text">
+            VP Financial Manager, UW Coding Boot Camp Student</span
+          ></a
+        >
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="right hide-on-med-and-down">
+          <li><a href="projects.html">Projects</a></li>
+          <li>
+            <a href="https://github.com/caitlinbou" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/caitlin-bouroncle-185b75182/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              class="waves-effect waves-light green btn modal-trigger"
+              href="#modal1"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- sideNav -->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="projects.html">Projects</a></li>
+      <li>
+        <a href="https://github.com/caitlinbou" target="_blank">GitHub</a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/caitlin-bouroncle-185b75182/"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </li>
+      <li>
+        <a
+          class="waves-effect waves-light green btn modal-trigger"
+          href="#modal1"
+          >Contact Me</a
+        >
+      </li>
+    </ul>
+
+    <!-- carasoul -->
+    <div class="carousel">
+      <a class="carousel-item" href="#one!"
+        ><img src="assets\ChileFancy.jpg" />Follow the links to get to know me
+        and my work! You will find a link to my resume in the "contact me"
+        section.</a
+      >
+      <div class="carousel-item blue white-text" href="#two!">
+        <h2>Family</h2>
+        <p class="white-text">Motivation</p>
+      </div>
+      <div class="carousel-item green white-text" href="#three!">
+        <h2>Work</h2>
+        <p class="white-text">Passion</p>
+      </div>
+      <div class="carousel-item orange white-text" href="#four!">
+        <h2>Health</h2>
+        <p class="white-text">Balance</p>
+      </div>
+      <div class="carousel-item red white-text" href="#four!">
+        <h2>Travel</h2>
+        <p class="white-text">Perspective</p>
+      </div>
+    </div>
+    <!-- contact me modal -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Caitlin Bouroncle</h4>
+        <p>
+          Thanks for visiting. I hope you have enjoyed your stay. I look forward
+          to hearing from you! You can find me at: <br />
+          <br/>
+          <br/>
+          <strong>caitlin.bouroncle@gmail.com </strong><br />
+          <br/>
+          <strong>206.999.2038</strong>
+          <br/>
+          <br/>
+          <li><a href="#" target="_blank">Link to CV</a></li>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Click to close. See you next time!</a
+        >
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

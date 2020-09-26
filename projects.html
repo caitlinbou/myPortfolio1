@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets\projects.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div class="nav-wrapper grey z-depth-2" style="min-height: 125px">
+        <a href="#!" class="brand-logo"
+          >Caitlin Bouroncle,
+          <span class="sub-text">
+            VP Financial Manager, UW Coding Boot Camp Student</span
+          ></a
+        >
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="https://github.com/caitlinbou" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/caitlin-bouroncle-185b75182/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              class="waves-effect waves-light green btn modal-trigger"
+              href="#modal1"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- sideNav -->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="https://github.com/caitlinbou" target="_blank">GitHub</a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/caitlin-bouroncle-185b75182/"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </li>
+      <li>
+        <a
+          class="waves-effect waves-light green btn modal-trigger"
+          href="#modal1"
+          >Contact Me</a
+        >
+      </li>
+    </ul>
+    <!-- contact me modal -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Caitlin Bouroncle</h4>
+        <p>
+          Thanks for visiting. I hope you have enjoyed your stay. I look forward
+          to hearing from you! You can find me at: <br />
+          <br />
+          <br />
+          <strong>caitlin.bouroncle@gmail.com </strong><br />
+          <br />
+          <strong>206.999.2038</strong><br />
+          <br />
+          <br />
+          <li><a href="#" target="_blank">Link to CV</a></li>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Click to close. See you next time!</a
+        >
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s4 m4">
+        <div class="card">
+          <h5>Weather Dashboard</h5>
+          <div class="card-image">
+            <img src="assets\screenshot3.png" />
+          </div>
+          <div class="card-content">
+            <p>
+              Up to date weather for cities around the world using AJAX call to
+              the Open Weather Map API, with local storage for user's search
+              history.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/caitlinbou/weatherDash" target="_blank"
+              >Project Details</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col s4 m4">
+        <div class="card">
+          <h5>Music Chord Identifier</h5>
+          <div class="card-image">
+            <img src="" />
+          </div>
+          <div class="card-content">
+            <p>
+              Select a note or a group of notes, and receive chord information.
+              Upon receipt, the chord is sent to another API and the sound comes
+              back. Geared towards elementary level music theory.
+            </p>
+          </div>
+          <div class="card-action">
+            <a
+              href="https://github.com/GnuArtemis/Music-Chord-Identifier"
+              target="_blank"
+              >Project Details</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="card">
+          <h5>Workday Scheduler</h5>
+          <div class="card-image">
+            <img src="assets\WorkDayScheduler.png" />
+            <!-- TODO: Take a new screenshot during the day to show the different colors -->
+          </div>
+          <div class="card-content">
+            <p>
+              Breaks the day into hour long time blocks for a one page visual of
+              the workday. Using moment.js to sync with current time and
+              date, this tool visually puts the past to grey and the future to
+              green, while the present hour is red. Local Storage for persistant data.
+            </p>
+          </div>
+          <div class="card-action">
+            <a
+              href="https://github.com/caitlinbou/workScheduler"
+              target="_blank"
+              >Project Details</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="projects.js"></script>
+  </body>
+</html>
