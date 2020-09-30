@@ -3,9 +3,13 @@
 }
 
 body {
-    background: linear-gradient(horizontal,grey lightgrey);
+    background: linear-gradient(horizontal,purple violet); 
 }
 
 .sub-text {
     font-size: 16px;
 }
+
+/* .name {
+    white-space: nowrap;
+} */
